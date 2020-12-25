@@ -15,15 +15,15 @@
 * Login Cookies
 ## Install script on Termux
 ```
-$ apt update && pkg upgrade -y
-$ apt install python -y
-$ apt install git -y
-$ git clone https://github.com/kinarworo/mbf
+pkg update && pkg upgrade -y
+pkg install python -y
+pkg install git -y
+git clone https://github.com/kinarworo/mbf
 ```
 
 ## Run script
 ```
-$ cd mbf
-$ pip2 install colorama futures
-$ python2 run.py
+cd mbf
+pip2 install colorama futures
+python2 run.py
 ```

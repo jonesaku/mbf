@@ -14,7 +14,7 @@
 ## Features
 * Login Cookies
 ## Install script on Termux
-```
+```python
 pkg update && pkg upgrade -y
 pkg install python -y
 pkg install git -y
